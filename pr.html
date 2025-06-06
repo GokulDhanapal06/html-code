@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="./para.html" align="center" method="get" enctype="multipart/form-data">
+        <div>
+        <label for="">Name</label>
+        <input type="text" name="Name" minlength="1">
+        </div>
+        <br>
+        <div>
+        <label for="">Mobile Number</label>
+        <input type="mobile number" name="Mobile Number" required maxlength="10">
+        </div>
+        <br>
+        <div>
+            <label for="">OTP</label>
+            <input type="password" name="OTP" maxlength="6">
+        </div>
+        <br>
+        <div>
+            <label for="">Date</label>
+            <input type="date"required min="06-03-2025" max="06-15-2025">
+        </div>
+        <br>
+        <div>
+            <label for="About">Welcome Address</label>
+            <textarea name="Welcome Address" id="Welcome Address" style="font-family: 'Times New Roman';">Welcome To The Park Land - The Place of Joyful</textarea>
+        </div>
+        <br>
+        <div>
+
+            <input type="radio" name="Select One" id="AM" value="AM">
+            <label for="">AM</label><br>
+            <input type="radio" name="Select One" id="PM" value="PM">
+            <label for="">PM</label><br>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="Giant Wheel" id="Giant Wheel">
+            <label for="">Giant Wheel</label><br>
+            <input type="checkbox" name="Snake Train" id="Snake Train">
+            <label for="">Snake Train</label><br>
+            <input type="checkbox" name="Dragon Ship" id="Dragon Ship">
+            <label for="">Dragon Ship</label><br>
+            <input type="checkbox" name="oZONE" id="oZONE">
+            <label for="">oZONE</label><br>
+            <input type="checkbox" name="Slide Game" id="Slide Game">
+            <label for="">Slide Game</label>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="Marital Status" id="Married" value="Married">
+            <label for="Married">Married</label>
+            <input type="radio" name="Marital Status" id="Unmarried" value="Unmarried">
+            <label for="Unmarried">Unmarried</label>
+        </div>
+        <br>
+        <div>
+            <p> AVAILABLE BRANCHES </p>
+            <select name="State" id="State">
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Kerala" label="Kerala">Kerala</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Delhi">Delhi</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <br>
+        <button type="submit">submit</button>
+        <br>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
