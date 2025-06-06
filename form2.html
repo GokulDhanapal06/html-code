@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="./para.html" align="center" method="get" enctype="multipart/form-data<">
+        <div>
+        <label for="">Username</label>
+        <input type="text" name="username" maxlength="5">
+        </div>
+        <br>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="Email" id="email"
+        </div>
+        <br>
+        <br>
+        <div>
+        <label for="">Password</label>
+        <input type="password" name="password" required minlength="4">
+        </div>
+        <br>
+        <div>
+            <label for="">D.O.B</label>
+            <input type="number" name="dob" maxlength="4" max="2030" min="1970" step="10">
+        </div>
+        <br>
+        <div>
+            <label for="">Date</label>
+            <input type="date" min="12-24-2006" max="12-24-2024">
+        </div>
+        <br>
+        <div>
+            <label for="About">About Me</label>
+            <textarea name="About" id="About" style="font-family: 'Times New Roman';">Hi All</textarea>
+        </div>
+        <br>
+        <div>
+            <label for="time">Time</label>
+            <input type="time">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="Alert" id="Alert">
+            <label for="">Alert1</label><br>
+            <input type="checkbox" name="Alert2" id="Alert2">
+            <label for="">Alert2</label><br>
+            <input type="checkbox" name="Alert3" id="Alert3">
+            <label for="">Alert3</label><br>
+            <input type="checkbox" name="Alert4" id="Alert4">
+            <label for="">Alert4</label><br>
+            <input type="checkbox" name="Alert5" id="Alert5">
+            <label for="">Alert5</label>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <br>
+        <div>
+            <select name="State" id="State">
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Kerala" label="Kerala">Kerala</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Delhi">Delhi</option>
+            </select>
+        </div>
+        <br>
+        <input type="hidden" name="hidden" id="hidden" value="123456">
+        <input type="color">
+        <br>
+        <div>
+            <label for="file">Resume</label>
+            <input type="file" id="file" area="file">
+        </div>
+        <br>
+        <!-- <button type="submit">submit</button> -->
+         <input type="image" src="Radhekrishna5.jpg" height="50px" width="40px">
+        <br>
+        <button type="reset">reset</button>       
+    </form>
+</body>
+</html>
