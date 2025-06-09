@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    background-color: bisque;
+}
+p{
+    background-image:url('Radhekrishna.jpg/Radhekrishna.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:darkslategray;
+    filter: grayscale(70%) brightness(70%) contrast(70%);
+    font-weight: bold;
+    height:900px; width: 1500px;
+
+}
