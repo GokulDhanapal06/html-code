@@ -1,0 +1,45 @@
+ p{
+    color:deeppink;
+}
+h2,h3,h4{
+    color: blueviolet ;
+} 
+h1,h5,h6{
+    color: brown;
+}
+*{
+    background-color: lightcyan;
+    color: black;
+}
+para{
+    text-decoration: underline;
+}
+.Gokul{
+    color: blue;
+    text-decoration: overline;
+    font-weight: bolder;
+} 
+h3,h4,h5,h6{
+    color: blue;
+}
+h6{
+    color: violet;
+}
+body{
+    color: aqua;
+}
+div>p{
+    color: red;
+}
+div a{
+    color: orange;
+}
+h1~h2{
+    background-color: yellow;
+    text-decoration: overline;
+    text-align: justify;
+    border: 2px;
+}
+h3+h4{
+    background-color: chartreuse;
+}
