@@ -1,0 +1,14 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+     font-family: monospace, 'Trebuchet MS' ,'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+h2{
+    font-family: monospace, 'Times New Roman', Times, serif;text-shadow: 0ic;
+}
+h3{
+    font-style: oblique;
+    font-weight: bold;
+}
