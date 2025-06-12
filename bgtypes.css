@@ -1,0 +1,10 @@
+p{
+    background-color: darkblue;
+    color: white;
+}
+body{
+    background-image: url(./Radhekrishna5.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100px;
+}
