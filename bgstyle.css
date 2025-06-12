@@ -1,0 +1,12 @@
+p{
+    color: antiquewhite;
+    background-color: blueviolet; 
+    color: hsl(100,95%,45%); 
+    color: rgba(99.2,88.5,99.8,1);
+    background-color: hsla(90, 96%, 49%, 0.6);
+}
+/* p{
+    color: aliceblue;
+    background-color: limegreen;
+    color: hsl(70,10,40);
+} */
