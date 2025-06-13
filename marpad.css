@@ -1,0 +1,17 @@
+p{
+    border: 16px solid blue;
+    padding: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 5em;
+    background-color: black;
+    color: black;
+    line-height: 1.6;
+}
+p:hover{
+    color: white;
+}
+li{
+    display: inline;
+    font-family: monospace, 'Times New Roman', Times, serif;
+}                    
